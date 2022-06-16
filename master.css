@@ -1,0 +1,270 @@
+*{margin:0; padding:0; text-decoration:none;}
+
+
+.cent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box1{
+    height:1163px;
+    background-image: url(img/bg01.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.box2{
+    height:800px;
+    background-image: url(img/bg02.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.box3{
+    height:300px;
+}
+.box4{
+    height:612px;
+    background-image: url(img/bg03.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.box5{
+    height: 818px;
+    background-image: url(img/bg04.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.box6{
+    height: 822px;
+    background-image: url(img/bg05.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.box7{
+    height: 1340px;
+}
+footer{
+    background-color: #188DDB;
+    height: 145px;
+}
+
+
+
+.box1 > .wrap{
+    position: absolute;
+    width: 1920px;
+    height:1163px;
+}
+
+.con1_1{
+    position: absolute;
+    margin-top: 82px;
+    margin-left:440px;
+}
+.con1_1>img{
+    width: 364px;
+    height: 272px;
+}
+
+.con1_2{
+    position: absolute;
+    right:11px;
+    top: 140px;
+}
+.con1_2>img{
+    width:1173px;
+    height:880px;
+}
+
+
+
+.box2 > .wrap{
+    position: absolute;
+    width: 1100px;
+    height:800px;
+}
+
+.b2_i1{
+    position: absolute;
+    left:41px;
+    top:53px;
+}
+.b2_i1>img {
+    width:511px;
+    height:610px;
+}
+.b2_i2{
+    position: absolute;
+    right:0;
+    top:0;
+}
+
+
+
+.box3 > .wrap{
+    position: absolute;
+    width: 1100px;
+    height:300px;
+}
+.con2_1{
+    position: absolute;
+    bottom:95px;
+    left:15px;
+}
+.con2_1>img {
+    width:1070px;
+    height:107px;
+}
+
+
+
+.box4 > .wrap{
+    display: block;
+    position: absolute;
+    width: 1100px;
+    height:612px;
+}
+.con3_1 {
+    display: block;
+}
+.con3_1> p {
+    padding-top: 160px;
+    text-align: center;
+    font-family: Noto Sans KR;
+        font-weight: 500;
+        font-size: 20px;
+        color: #333333;
+        letter-spacing: 0em;
+        line-height: 1.75;
+}
+    
+
+
+.box5 > .wrap{
+    position: absolute;
+    width: 1100px;
+    height:818px;
+}
+.con4_1{
+    position: absolute;
+    top: 65px;
+    left:14px;
+}
+.con4_1>img{
+    width:398px;
+    height:124px;
+}
+
+.con4_2{
+    z-index: 2;
+    position: absolute;
+    top:284px;
+    left:484px;
+    font-family: Noto Sans KR;
+        font-weight: 500;
+        font-size: 20px;
+        color: #333333;
+        letter-spacing: 0em;
+        line-height: 1.75;
+}
+.con4_3{
+    z-index:1;
+    position: absolute;
+    bottom:-5px;
+    left:0;
+}
+.con4_3>img {
+    width: 924px;
+    height: 576px;}
+
+
+
+.box6 > .wrap{
+    position: absolute;
+    width: 1100px;
+    height: 822px;
+}
+.con5_1{
+    position:absolute;
+    top: 86px;
+    left:72px;
+}
+.con5_1>img{
+    width:995px;
+    height:346px;
+}
+.text{
+    position: absolute;
+    left: 436px;
+    top: 260px;
+}
+.text>p{
+    right:0;
+    font-family: Noto Sans KR;
+    font-weight: 500;
+    font-size: 20px;
+    color: #333333;
+    letter-spacing: 0em;
+    line-height: 1.75;
+
+}
+.con5_2{
+    position: absolute;
+    right:0;
+    bottom:40px;
+}
+.con5_2>img{
+    width:1100px;
+    height:305px;
+}
+
+
+
+.box7 > .wrap{
+    position: absolute;
+    width: 1100px;
+    height: 1340px;
+    top:70px;
+}
+.con6_1 >img{
+    width:1100px;
+    height:1146px;
+}
+
+
+
+.footer{
+    position: relative;
+    width:100%;
+    height: 115px;
+}
+.footer  > .wrap{
+    position: absolute;
+    width: 1100px;
+}
+
+.con7_1>img{
+    width:193px;
+    height:85px;
+    bottom:30px;
+    left:8px;    
+}
+.con7_1>p{
+    position: absolute;
+    right:0;
+    bottom:0;
+    text-align: right;
+    font-family: Noto Sans KR;
+    font-weight: 500;
+    font-size: 14px;
+    color: #ffffff;
+    letter-spacing: 0em;
+    line-height: 1.4;
+}
+
+
